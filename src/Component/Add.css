@@ -1,0 +1,41 @@
+/* #Add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: Fixed;
+    height: 100vh;
+    background-color: rgb(15, 161, 125);
+} */
+#form{
+    width: 80vh;
+    height: 80vh;
+    border: 10px solid;
+    border-style:double;
+    box-shadow: 0 0 15px;
+    /* background-color: rgb(240, 236, 228); */
+    background-color: rgba(243, 245, 241, 0.87);
+    border-radius: 20px;
+    margin: 30px;
+}
+form{
+    margin: 20px;
+}
+label{
+    font-size: 25px;
+    font-weight: 600;
+}
+.input{
+    text-align: center;
+    height: 30px;
+    width: 90%;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.left{
+    position: relative;
+    float: right;
+    padding: 5px;
+    margin: 8px 5px;
+    background: yellowgreen;
+}
