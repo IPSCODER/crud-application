@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2021 Sachin S. Bahegavankar
+ *   All rights reserved.
+ */
 import React from "react";
 import "./Edit.css";
 import '../App.css';
@@ -11,17 +15,15 @@ const VIEWUSER = (props) => {
           <td>{e.cocktail}</td>
           <td>{e.points}</td>
           <td>
-            <button >Edit</button>
-            <button>Delete</button>
+            <button onClick={() => { props.editUser(e,key) }}>Edit</button>
+            <button onClick={() => { props.deleteuser(key) }}>Delete</button>
           </td>
         </tr>;
 });
-  return (
-    
+  return (  
   
     <>
         <div id="table">
-
 
         {/* scoreboard start */}
           <div id="heading">

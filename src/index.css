@@ -32,6 +32,15 @@ body{
   align-items: center;
   justify-content: space-between;
 }
+.btn-danger{
+  background-color: brown !important;
+  color: #fff;
+}
+
+.btn-edit{
+  background-color: rgb(25, 75, 95) !important;
+  color: #fff;
+}
 
 @media (max-width:900px){
   body{
