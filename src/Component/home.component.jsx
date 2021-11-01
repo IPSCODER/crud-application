@@ -1,8 +1,3 @@
-/*
- *   Copyright (c) 2021 Sachin S. Bahegavankar
- *   All rights reserved.
- */
-
 import React, { Component } from 'react';
 import Add from './Add';
 import VIEWUSER from './viewuser.container';
@@ -11,20 +6,15 @@ class HOMECOMPONENT extends Component {
 
     state = {
         rowsData:[
-            // {name:'pravin1', cocktail:'malta', points:'101'},
-            // {name:'pravin2', cocktail:"santra", points:'102'},
-            // {name:'pravin3', cocktail:'sonfee', points:'103'},
-            // {name:'pravin4', cocktail:'abc4', points:'104'},
-            // {name:'pravin5', cocktail:'abc5', points:'105'},
-            // {name:'pravin6', cocktail:'abc6', points:'106'}
+            {name:'pravin1', cocktail:'malta', points:'101'},
+            {name:'pravin2', cocktail:"santra", points:'102'},
+            {name:'pravin3', cocktail:'sonfee', points:'103'}
         ],
         editData:false
     }
 
     constructor() {
-        // // window.scrollTo(0, 0);
         super();
-        // this.registerUser = this.registerUser.bind(this);
       }
 
 

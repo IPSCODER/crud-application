@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2021 Sachin S. Bahegavankar
- *   All rights reserved.
- */
 import React from "react";
 import "./Edit.css";
 import '../App.css';

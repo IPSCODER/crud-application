@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2021 Sachin S. Bahegavankar
- *   All rights reserved.
- */
 import React, { useState, useEffect, useRef } from "react";
 import "./Add.css";
 import '../App.css';
@@ -64,7 +60,6 @@ const Add = (props) => {
   }
 
   return (
-    // <div id="Add">
       <div id="form">
           <h1 style={{textAlign:"center", margin:"15px"}}>Add Entry</h1>
           <hr/>
@@ -91,7 +86,6 @@ const Add = (props) => {
           </form>
           {/* form end */}
       </div>
-    // </div>
   );
 };
 
